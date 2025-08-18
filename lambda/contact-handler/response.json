@@ -1,0 +1,1 @@
+{"statusCode":405,"headers":{"Access-Control-Allow-Origin":"*","Access-Control-Allow-Methods":"OPTIONS,POST","Access-Control-Allow-Headers":"Content-Type, x-api-key"},"body":"{\"message\":\"Method Not Allowed\"}"}
