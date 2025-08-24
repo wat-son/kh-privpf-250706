@@ -1,0 +1,96 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/api/auth/register";
+exports.ids = ["pages/api/auth/register"];
+exports.modules = {
+
+/***/ "@aws-sdk/client-dynamodb":
+/*!*******************************************!*\
+  !*** external "@aws-sdk/client-dynamodb" ***!
+  \*******************************************/
+/***/ ((module) => {
+
+module.exports = require("@aws-sdk/client-dynamodb");
+
+/***/ }),
+
+/***/ "@aws-sdk/lib-dynamodb":
+/*!****************************************!*\
+  !*** external "@aws-sdk/lib-dynamodb" ***!
+  \****************************************/
+/***/ ((module) => {
+
+module.exports = require("@aws-sdk/lib-dynamodb");
+
+/***/ }),
+
+/***/ "next/dist/compiled/next-server/pages-api.runtime.dev.js":
+/*!**************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/pages-api.runtime.dev.js" ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+module.exports = require("next/dist/compiled/next-server/pages-api.runtime.dev.js");
+
+/***/ }),
+
+/***/ "bcryptjs":
+/*!***************************!*\
+  !*** external "bcryptjs" ***!
+  \***************************/
+/***/ ((module) => {
+
+module.exports = import("bcryptjs");;
+
+/***/ }),
+
+/***/ "uuid":
+/*!***********************!*\
+  !*** external "uuid" ***!
+  \***********************/
+/***/ ((module) => {
+
+module.exports = import("uuid");;
+
+/***/ }),
+
+/***/ "(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fauth%2Fregister&preferredRegion=&absolutePagePath=.%2Fsrc%2Fpages%2Fapi%2Fauth%2Fregister.ts&middlewareConfigBase64=e30%3D!":
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fauth%2Fregister&preferredRegion=&absolutePagePath=.%2Fsrc%2Fpages%2Fapi%2Fauth%2Fregister.ts&middlewareConfigBase64=e30%3D! ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   config: () => (/* binding */ config),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   routeModule: () => (/* binding */ routeModule)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/pages-api/module.compiled */ \"(api)/./node_modules/next/dist/server/future/route-modules/pages-api/module.compiled.js\");\n/* harmony import */ var next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"(api)/./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/build/templates/helpers */ \"(api)/./node_modules/next/dist/build/templates/helpers.js\");\n/* harmony import */ var _src_pages_api_auth_register_ts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/pages/api/auth/register.ts */ \"(api)/./src/pages/api/auth/register.ts\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_src_pages_api_auth_register_ts__WEBPACK_IMPORTED_MODULE_3__]);\n_src_pages_api_auth_register_ts__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n// Import the userland code.\n\n// Re-export the handler (should be the default export).\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_src_pages_api_auth_register_ts__WEBPACK_IMPORTED_MODULE_3__, \"default\"));\n// Re-export config.\nconst config = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_src_pages_api_auth_register_ts__WEBPACK_IMPORTED_MODULE_3__, \"config\");\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__.PagesAPIRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.PAGES_API,\n        page: \"/api/auth/register\",\n        pathname: \"/api/auth/register\",\n        // The following aren't used in production.\n        bundlePath: \"\",\n        filename: \"\"\n    },\n    userland: _src_pages_api_auth_register_ts__WEBPACK_IMPORTED_MODULE_3__\n});\n\n//# sourceMappingURL=pages-api.js.map\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LXJvdXRlLWxvYWRlci9pbmRleC5qcz9raW5kPVBBR0VTX0FQSSZwYWdlPSUyRmFwaSUyRmF1dGglMkZyZWdpc3RlciZwcmVmZXJyZWRSZWdpb249JmFic29sdXRlUGFnZVBhdGg9LiUyRnNyYyUyRnBhZ2VzJTJGYXBpJTJGYXV0aCUyRnJlZ2lzdGVyLnRzJm1pZGRsZXdhcmVDb25maWdCYXNlNjQ9ZTMwJTNEISIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OztBQUFzRztBQUN2QztBQUNMO0FBQzFEO0FBQzZEO0FBQzdEO0FBQ0EsaUVBQWUsd0VBQUssQ0FBQyw0REFBUSxZQUFZLEVBQUM7QUFDMUM7QUFDTyxlQUFlLHdFQUFLLENBQUMsNERBQVE7QUFDcEM7QUFDTyx3QkFBd0IsZ0hBQW1CO0FBQ2xEO0FBQ0EsY0FBYyx5RUFBUztBQUN2QjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsS0FBSztBQUNMLFlBQVk7QUFDWixDQUFDOztBQUVELHFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8va2gtcHJpdnBmLTI1MDcwNi8/MDRkYyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBQYWdlc0FQSVJvdXRlTW9kdWxlIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvZnV0dXJlL3JvdXRlLW1vZHVsZXMvcGFnZXMtYXBpL21vZHVsZS5jb21waWxlZFwiO1xuaW1wb3J0IHsgUm91dGVLaW5kIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvZnV0dXJlL3JvdXRlLWtpbmRcIjtcbmltcG9ydCB7IGhvaXN0IH0gZnJvbSBcIm5leHQvZGlzdC9idWlsZC90ZW1wbGF0ZXMvaGVscGVyc1wiO1xuLy8gSW1wb3J0IHRoZSB1c2VybGFuZCBjb2RlLlxuaW1wb3J0ICogYXMgdXNlcmxhbmQgZnJvbSBcIi4vc3JjL3BhZ2VzL2FwaS9hdXRoL3JlZ2lzdGVyLnRzXCI7XG4vLyBSZS1leHBvcnQgdGhlIGhhbmRsZXIgKHNob3VsZCBiZSB0aGUgZGVmYXVsdCBleHBvcnQpLlxuZXhwb3J0IGRlZmF1bHQgaG9pc3QodXNlcmxhbmQsIFwiZGVmYXVsdFwiKTtcbi8vIFJlLWV4cG9ydCBjb25maWcuXG5leHBvcnQgY29uc3QgY29uZmlnID0gaG9pc3QodXNlcmxhbmQsIFwiY29uZmlnXCIpO1xuLy8gQ3JlYXRlIGFuZCBleHBvcnQgdGhlIHJvdXRlIG1vZHVsZSB0aGF0IHdpbGwgYmUgY29uc3VtZWQuXG5leHBvcnQgY29uc3Qgcm91dGVNb2R1bGUgPSBuZXcgUGFnZXNBUElSb3V0ZU1vZHVsZSh7XG4gICAgZGVmaW5pdGlvbjoge1xuICAgICAgICBraW5kOiBSb3V0ZUtpbmQuUEFHRVNfQVBJLFxuICAgICAgICBwYWdlOiBcIi9hcGkvYXV0aC9yZWdpc3RlclwiLFxuICAgICAgICBwYXRobmFtZTogXCIvYXBpL2F1dGgvcmVnaXN0ZXJcIixcbiAgICAgICAgLy8gVGhlIGZvbGxvd2luZyBhcmVuJ3QgdXNlZCBpbiBwcm9kdWN0aW9uLlxuICAgICAgICBidW5kbGVQYXRoOiBcIlwiLFxuICAgICAgICBmaWxlbmFtZTogXCJcIlxuICAgIH0sXG4gICAgdXNlcmxhbmRcbn0pO1xuXG4vLyMgc291cmNlTWFwcGluZ1VSTD1wYWdlcy1hcGkuanMubWFwIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fauth%2Fregister&preferredRegion=&absolutePagePath=.%2Fsrc%2Fpages%2Fapi%2Fauth%2Fregister.ts&middlewareConfigBase64=e30%3D!\n");
+
+/***/ }),
+
+/***/ "(api)/./src/pages/api/auth/register.ts":
+/*!****************************************!*\
+  !*** ./src/pages/api/auth/register.ts ***!
+  \****************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\n/* harmony import */ var _aws_sdk_client_dynamodb__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @aws-sdk/client-dynamodb */ \"@aws-sdk/client-dynamodb\");\n/* harmony import */ var _aws_sdk_client_dynamodb__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_aws_sdk_client_dynamodb__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _aws_sdk_lib_dynamodb__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @aws-sdk/lib-dynamodb */ \"@aws-sdk/lib-dynamodb\");\n/* harmony import */ var _aws_sdk_lib_dynamodb__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_aws_sdk_lib_dynamodb__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var bcryptjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bcryptjs */ \"bcryptjs\");\n/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! uuid */ \"uuid\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([bcryptjs__WEBPACK_IMPORTED_MODULE_2__, uuid__WEBPACK_IMPORTED_MODULE_3__]);\n([bcryptjs__WEBPACK_IMPORTED_MODULE_2__, uuid__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n// pages/api/auth/register.ts\n\n\n\n\n// DynamoDB クライアント\nconst client = new _aws_sdk_client_dynamodb__WEBPACK_IMPORTED_MODULE_0__.DynamoDBClient({\n    region: \"us-east-1\"\n});\nconst ddbDocClient = _aws_sdk_lib_dynamodb__WEBPACK_IMPORTED_MODULE_1__.DynamoDBDocumentClient.from(client);\nasync function handler(req, res) {\n    if (req.method !== \"POST\") {\n        return res.status(405).json({\n            message: \"Method not allowed\"\n        });\n    }\n    const { name, email, password } = req.body;\n    if (!name || !email || !password) {\n        return res.status(400).json({\n            message: \"Missing required fields\"\n        });\n    }\n    try {\n        // 1. メールの重複チェック\n        const existingUsers = await ddbDocClient.send(new _aws_sdk_lib_dynamodb__WEBPACK_IMPORTED_MODULE_1__.ScanCommand({\n            TableName: \"Users\",\n            FilterExpression: \"#email = :email\",\n            ExpressionAttributeNames: {\n                \"#email\": \"email\"\n            },\n            ExpressionAttributeValues: {\n                \":email\": email\n            },\n            Limit: 1\n        }));\n        if (existingUsers.Count && existingUsers.Count > 0) {\n            return res.status(400).json({\n                message: \"Email already exists\"\n            });\n        }\n        // 2. パスワードをハッシュ化\n        const hashedPassword = await bcryptjs__WEBPACK_IMPORTED_MODULE_2__[\"default\"].hash(password, 10);\n        // 3. UUID を生成\n        const userId = (0,uuid__WEBPACK_IMPORTED_MODULE_3__.v4)();\n        // 4. DynamoDB に保存\n        const command = new _aws_sdk_lib_dynamodb__WEBPACK_IMPORTED_MODULE_1__.PutCommand({\n            TableName: \"Users\",\n            Item: {\n                id: userId,\n                name,\n                email,\n                password: hashedPassword,\n                createdAt: new Date().toISOString()\n            }\n        });\n        await ddbDocClient.send(command);\n        return res.status(201).json({\n            message: \"User registered successfully\",\n            userId\n        });\n    } catch (error) {\n        console.error(error);\n        return res.status(500).json({\n            message: \"Internal server error\"\n        });\n    }\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9zcmMvcGFnZXMvYXBpL2F1dGgvcmVnaXN0ZXIudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7OztBQUFBLDZCQUE2QjtBQUU2QjtBQUM4QjtBQUMxRDtBQUNNO0FBRXBDLGtCQUFrQjtBQUNsQixNQUFNTyxTQUFTLElBQUlQLG9FQUFjQSxDQUFDO0lBQUVRLFFBQVE7QUFBWTtBQUN4RCxNQUFNQyxlQUFlUix5RUFBc0JBLENBQUNTLElBQUksQ0FBQ0g7QUFFbEMsZUFBZUksUUFBUUMsR0FBbUIsRUFBRUMsR0FBb0I7SUFDM0UsSUFBSUQsSUFBSUUsTUFBTSxLQUFLLFFBQVE7UUFDdkIsT0FBT0QsSUFBSUUsTUFBTSxDQUFDLEtBQUtDLElBQUksQ0FBQztZQUFFQyxTQUFTO1FBQXFCO0lBQ2hFO0lBRUEsTUFBTSxFQUFFQyxJQUFJLEVBQUVDLEtBQUssRUFBRUMsUUFBUSxFQUFFLEdBQUdSLElBQUlTLElBQUk7SUFFMUMsSUFBSSxDQUFDSCxRQUFRLENBQUNDLFNBQVMsQ0FBQ0MsVUFBVTtRQUM5QixPQUFPUCxJQUFJRSxNQUFNLENBQUMsS0FBS0MsSUFBSSxDQUFDO1lBQUVDLFNBQVM7UUFBMEI7SUFDckU7SUFFQSxJQUFJO1FBQ0EsZ0JBQWdCO1FBQ2hCLE1BQU1LLGdCQUFnQixNQUFNYixhQUFhYyxJQUFJLENBQzdDLElBQUlwQiw4REFBV0EsQ0FBQztZQUNacUIsV0FBVztZQUNYQyxrQkFBa0I7WUFDbEJDLDBCQUEwQjtnQkFBRSxVQUFVO1lBQVE7WUFDOUNDLDJCQUEyQjtnQkFBRSxVQUFVUjtZQUFNO1lBQzdDUyxPQUFPO1FBQ1g7UUFHQSxJQUFJTixjQUFjTyxLQUFLLElBQUlQLGNBQWNPLEtBQUssR0FBRyxHQUFHO1lBQ3BELE9BQU9oQixJQUFJRSxNQUFNLENBQUMsS0FBS0MsSUFBSSxDQUFDO2dCQUFFQyxTQUFTO1lBQXVCO1FBQzlEO1FBRUEsaUJBQWlCO1FBQ2pCLE1BQU1hLGlCQUFpQixNQUFNMUIscURBQVcsQ0FBQ2dCLFVBQVU7UUFFbkQsY0FBYztRQUNkLE1BQU1ZLFNBQVMxQix3Q0FBTUE7UUFFckIsa0JBQWtCO1FBQ2xCLE1BQU0yQixVQUFVLElBQUkvQiw2REFBVUEsQ0FBQztZQUMvQnNCLFdBQVc7WUFDWFUsTUFBTTtnQkFDRkMsSUFBSUg7Z0JBQ0pkO2dCQUNBQztnQkFDQUMsVUFBVVU7Z0JBQ1ZNLFdBQVcsSUFBSUMsT0FBT0MsV0FBVztZQUNyQztRQUNBO1FBRUEsTUFBTTdCLGFBQWFjLElBQUksQ0FBQ1U7UUFFeEIsT0FBT3BCLElBQUlFLE1BQU0sQ0FBQyxLQUFLQyxJQUFJLENBQUM7WUFBRUMsU0FBUztZQUFnQ2U7UUFBTztJQUNsRixFQUFFLE9BQU9PLE9BQVk7UUFDakJDLFFBQVFELEtBQUssQ0FBQ0E7UUFDZCxPQUFPMUIsSUFBSUUsTUFBTSxDQUFDLEtBQUtDLElBQUksQ0FBQztZQUFFQyxTQUFTO1FBQXdCO0lBQ25FO0FBQ0oiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9raC1wcml2cGYtMjUwNzA2Ly4vc3JjL3BhZ2VzL2FwaS9hdXRoL3JlZ2lzdGVyLnRzPzA5YWEiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gcGFnZXMvYXBpL2F1dGgvcmVnaXN0ZXIudHNcbmltcG9ydCB0eXBlIHsgTmV4dEFwaVJlcXVlc3QsIE5leHRBcGlSZXNwb25zZSB9IGZyb20gXCJuZXh0XCI7XG5pbXBvcnQgeyBEeW5hbW9EQkNsaWVudCB9IGZyb20gXCJAYXdzLXNkay9jbGllbnQtZHluYW1vZGJcIjtcbmltcG9ydCB7IER5bmFtb0RCRG9jdW1lbnRDbGllbnQsIFB1dENvbW1hbmQsIFNjYW5Db21tYW5kIH0gZnJvbSBcIkBhd3Mtc2RrL2xpYi1keW5hbW9kYlwiO1xuaW1wb3J0IGJjcnlwdCBmcm9tIFwiYmNyeXB0anNcIjtcbmltcG9ydCB7IHY0IGFzIHV1aWR2NCB9IGZyb20gXCJ1dWlkXCI7XG5cbi8vIER5bmFtb0RCIOOCr+ODqeOCpOOCouODs+ODiFxuY29uc3QgY2xpZW50ID0gbmV3IER5bmFtb0RCQ2xpZW50KHsgcmVnaW9uOiBcInVzLWVhc3QtMVwiIH0pO1xuY29uc3QgZGRiRG9jQ2xpZW50ID0gRHluYW1vREJEb2N1bWVudENsaWVudC5mcm9tKGNsaWVudCk7XG5cbmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIGhhbmRsZXIocmVxOiBOZXh0QXBpUmVxdWVzdCwgcmVzOiBOZXh0QXBpUmVzcG9uc2UpIHtcbiAgICBpZiAocmVxLm1ldGhvZCAhPT0gXCJQT1NUXCIpIHtcbiAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNDA1KS5qc29uKHsgbWVzc2FnZTogXCJNZXRob2Qgbm90IGFsbG93ZWRcIiB9KTtcbiAgICB9XG5cbiAgICBjb25zdCB7IG5hbWUsIGVtYWlsLCBwYXNzd29yZCB9ID0gcmVxLmJvZHk7XG5cbiAgICBpZiAoIW5hbWUgfHwgIWVtYWlsIHx8ICFwYXNzd29yZCkge1xuICAgICAgICByZXR1cm4gcmVzLnN0YXR1cyg0MDApLmpzb24oeyBtZXNzYWdlOiBcIk1pc3NpbmcgcmVxdWlyZWQgZmllbGRzXCIgfSk7XG4gICAgfVxuXG4gICAgdHJ5IHtcbiAgICAgICAgLy8gMS4g44Oh44O844Or44Gu6YeN6KSH44OB44Kn44OD44KvXG4gICAgICAgIGNvbnN0IGV4aXN0aW5nVXNlcnMgPSBhd2FpdCBkZGJEb2NDbGllbnQuc2VuZChcbiAgICAgICAgbmV3IFNjYW5Db21tYW5kKHtcbiAgICAgICAgICAgIFRhYmxlTmFtZTogXCJVc2Vyc1wiLFxuICAgICAgICAgICAgRmlsdGVyRXhwcmVzc2lvbjogXCIjZW1haWwgPSA6ZW1haWxcIixcbiAgICAgICAgICAgIEV4cHJlc3Npb25BdHRyaWJ1dGVOYW1lczogeyBcIiNlbWFpbFwiOiBcImVtYWlsXCIgfSxcbiAgICAgICAgICAgIEV4cHJlc3Npb25BdHRyaWJ1dGVWYWx1ZXM6IHsgXCI6ZW1haWxcIjogZW1haWwgfSxcbiAgICAgICAgICAgIExpbWl0OiAxLFxuICAgICAgICB9KVxuICAgICAgICApO1xuXG4gICAgICAgIGlmIChleGlzdGluZ1VzZXJzLkNvdW50ICYmIGV4aXN0aW5nVXNlcnMuQ291bnQgPiAwKSB7XG4gICAgICAgIHJldHVybiByZXMuc3RhdHVzKDQwMCkuanNvbih7IG1lc3NhZ2U6IFwiRW1haWwgYWxyZWFkeSBleGlzdHNcIiB9KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIDIuIOODkeOCueODr+ODvOODieOCkuODj+ODg+OCt+ODpeWMllxuICAgICAgICBjb25zdCBoYXNoZWRQYXNzd29yZCA9IGF3YWl0IGJjcnlwdC5oYXNoKHBhc3N3b3JkLCAxMCk7XG5cbiAgICAgICAgLy8gMy4gVVVJRCDjgpLnlJ/miJBcbiAgICAgICAgY29uc3QgdXNlcklkID0gdXVpZHY0KCk7XG5cbiAgICAgICAgLy8gNC4gRHluYW1vREIg44Gr5L+d5a2YXG4gICAgICAgIGNvbnN0IGNvbW1hbmQgPSBuZXcgUHV0Q29tbWFuZCh7XG4gICAgICAgIFRhYmxlTmFtZTogXCJVc2Vyc1wiLFxuICAgICAgICBJdGVtOiB7XG4gICAgICAgICAgICBpZDogdXNlcklkLFxuICAgICAgICAgICAgbmFtZSxcbiAgICAgICAgICAgIGVtYWlsLFxuICAgICAgICAgICAgcGFzc3dvcmQ6IGhhc2hlZFBhc3N3b3JkLFxuICAgICAgICAgICAgY3JlYXRlZEF0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCksXG4gICAgICAgIH0sXG4gICAgICAgIH0pO1xuXG4gICAgICAgIGF3YWl0IGRkYkRvY0NsaWVudC5zZW5kKGNvbW1hbmQpO1xuXG4gICAgICAgIHJldHVybiByZXMuc3RhdHVzKDIwMSkuanNvbih7IG1lc3NhZ2U6IFwiVXNlciByZWdpc3RlcmVkIHN1Y2Nlc3NmdWxseVwiLCB1c2VySWQgfSk7XG4gICAgfSBjYXRjaCAoZXJyb3I6IGFueSkge1xuICAgICAgICBjb25zb2xlLmVycm9yKGVycm9yKTtcbiAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNTAwKS5qc29uKHsgbWVzc2FnZTogXCJJbnRlcm5hbCBzZXJ2ZXIgZXJyb3JcIiB9KTtcbiAgICB9XG59XG4iXSwibmFtZXMiOlsiRHluYW1vREJDbGllbnQiLCJEeW5hbW9EQkRvY3VtZW50Q2xpZW50IiwiUHV0Q29tbWFuZCIsIlNjYW5Db21tYW5kIiwiYmNyeXB0IiwidjQiLCJ1dWlkdjQiLCJjbGllbnQiLCJyZWdpb24iLCJkZGJEb2NDbGllbnQiLCJmcm9tIiwiaGFuZGxlciIsInJlcSIsInJlcyIsIm1ldGhvZCIsInN0YXR1cyIsImpzb24iLCJtZXNzYWdlIiwibmFtZSIsImVtYWlsIiwicGFzc3dvcmQiLCJib2R5IiwiZXhpc3RpbmdVc2VycyIsInNlbmQiLCJUYWJsZU5hbWUiLCJGaWx0ZXJFeHByZXNzaW9uIiwiRXhwcmVzc2lvbkF0dHJpYnV0ZU5hbWVzIiwiRXhwcmVzc2lvbkF0dHJpYnV0ZVZhbHVlcyIsIkxpbWl0IiwiQ291bnQiLCJoYXNoZWRQYXNzd29yZCIsImhhc2giLCJ1c2VySWQiLCJjb21tYW5kIiwiSXRlbSIsImlkIiwiY3JlYXRlZEF0IiwiRGF0ZSIsInRvSVNPU3RyaW5nIiwiZXJyb3IiLCJjb25zb2xlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./src/pages/api/auth/register.ts\n");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../../webpack-api-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next"], () => (__webpack_exec__("(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fauth%2Fregister&preferredRegion=&absolutePagePath=.%2Fsrc%2Fpages%2Fapi%2Fauth%2Fregister.ts&middlewareConfigBase64=e30%3D!")));
+module.exports = __webpack_exports__;
+
+})();
