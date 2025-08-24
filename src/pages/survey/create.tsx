@@ -4,8 +4,9 @@ import {
     Paper, IconButton, Select, MenuItem, FormControl, InputLabel,
     FormControlLabel, Checkbox
     } from "@mui/material";
-    import AddIcon from "@mui/icons-material/Add";
-    import DeleteIcon from "@mui/icons-material/Delete";
+import AddIcon from "@mui/icons-material/Add";
+import DeleteIcon from "@mui/icons-material/Delete";
+import ButtonBack from "../../components/ButtonBack";
 
     type QuestionType = "text" | "textarea" | "radio" | "checkbox" | "select" | "rating";
 
@@ -179,6 +180,7 @@ export default function SurveyCreatePage() {
             </Stack>
 
             <Box sx={{ display: "flex", gap: 2 }}>
+            <ButtonBack />
             <Button type="submit" variant="contained">保存して公開</Button>
             <Button variant="outlined" onClick={() => { setTitle(""); setDescription(""); setQuestions([]); }}>クリア</Button>
             </Box>

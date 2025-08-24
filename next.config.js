@@ -11,7 +11,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    output: 'export',
+    // output: 'export',
     env: {
         API_URL: process.env.API_URL,
         SURVEY_API_URL: process.env.SURVEY_API_URL,
